@@ -135,4 +135,4 @@ fBodyBodyGyroJerkMag.std        the body angular velociy "jerk" signal
 file with the info in the `y_???.txt` file.
 * Only the mean & stdev of the measurements were kept.  This was done via searching (`grep`) for the expression `"mean[.]|std[.]|mean$|std$|ID"` in the headers.
 * A second dataset was formed by taking the average of the measurements, as grouped by the `SubjectID` and `ActivityLabel`
-* The datasets are saved in the semicolon separated format.
+* The datasets are saved in space separated format.

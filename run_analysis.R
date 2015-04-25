@@ -56,11 +56,11 @@ data <- inner_join(data, activity_labels)
 ## so that the two ID columns and the Label column are in the front
 #
 data <- select(data, 1:2, length(data), everything())
-write.csv2(data, "data.csv", row.names=F)
+write.table(data, "data.csv", row.names=F)
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set 
 ##    with the average of each variable for each activity and each subject.
 #
 groups <- group_by(data, SubjectID, ActivityLabel)
 data2 <- summarise_each(groups, c("mean"), 4:length(groups))
-write.csv2(data2, "data2.csv", row.names=F)
+write.table(data2, "data2.csv", row.names=F)
