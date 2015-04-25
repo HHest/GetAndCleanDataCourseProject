@@ -2,7 +2,7 @@
 
 ## Data Description
 
-Data collected from the accelerometers of the Samsung Galaxy S smartphones, which were worn by a group of 30 volunteers. Each person performed six activities. There were 128 readings.
+Data collected from the accelerometers of the Samsung Galaxy S smartphones, which were worn by a group of 30 volunteers. The movements of the participants were monitored while they performed six activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING). The data set is culled from the original "Human Activity Recognition Using Smartphones" data set.
 
 Each record in the dataset provides:
 
