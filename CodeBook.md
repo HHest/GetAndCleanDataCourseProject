@@ -39,87 +39,87 @@ ActivityID                      The ID of the six monitored activities.
 ActivityLabel                   The description of the activities.
 
 tBodyAcc.mean.X                 The 3D mean and stdev of
-tBodyAcc.mean.Y                 the body acceleration signal
-tBodyAcc.mean.Z 
+tBodyAcc.mean.Y                 the body acceleration signal.
+tBodyAcc.mean.Z                 Units in standard gravity units ['g'].
 tBodyAcc.std.X 
 tBodyAcc.std.Y 
 tBodyAcc.std.Z 
 
 tGravityAcc.mean.X              The 3D mean and stdev of 
-tGravityAcc.mean.Y              the gravity acceleration signal
-tGravityAcc.mean.Z 
+tGravityAcc.mean.Y              the gravity acceleration signal. ['g']
+tGravityAcc.mean.Z              
 tGravityAcc.std.X 
 tGravityAcc.std.Y 
 tGravityAcc.std.Z 
 
 tBodyAccJerk.mean.X             The 3D mean and stdev of
-tBodyAccJerk.mean.Y             the body acceleration "jerk" signal
-tBodyAccJerk.mean.Z 
+tBodyAccJerk.mean.Y             the body acceleration "jerk" signal,
+tBodyAccJerk.mean.Z             which is the derivative w.r.t time. ['g'/sec]
 tBodyAccJerk.std.X 
 tBodyAccJerk.std.Y 
 tBodyAccJerk.std.Z 
 
 tBodyGyro.mean.X                The 3D mean and stdev of 
-tBodyGyro.mean.Y                the body angular velocity signal
-tBodyGyro.mean.Z 
+tBodyGyro.mean.Y                the body angular velocity signal.
+tBodyGyro.mean.Z                Units in [radians/sec].
 tBodyGyro.std.X 
 tBodyGyro.std.Y 
 tBodyGyro.std.Z 
 
 tBodyGyroJerk.mean.X            The 3D mean and stdev of 
-tBodyGyroJerk.mean.Y            the body angular velociy "jerk" signal
-tBodyGyroJerk.mean.Z 
+tBodyGyroJerk.mean.Y            the body angular velociy "jerk" signal,
+tBodyGyroJerk.mean.Z            which is the derivative w.r.t. time. [rad/sec/sec]
 tBodyGyroJerk.std.X 
 tBodyGyroJerk.std.Y 
 tBodyGyroJerk.std.Z 
 
 tBodyAccMag.mean                The mean and stdev magnitude of
-tBodyAccMag.std                 the body acceleration signal
+tBodyAccMag.std                 the body acceleration signal. ['g']
 
 tGravityAccMag.mean             The mean and stdev magnitude of
-tGravityAccMag.std              the gravity acceleration signal
+tGravityAccMag.std              the gravity acceleration signal. ['g']
 
 tBodyAccJerkMag.mean            The mean and stdev magnitude of
-tBodyAccJerkMag.std             the body acceleration "jerk" signal
+tBodyAccJerkMag.std             the body acceleration "jerk" signal. ['g'/sec]
 
 tBodyGyroMag.mean               The mean and stdev magnitude of
-tBodyGyroMag.std                the body angular velocity signal
+tBodyGyroMag.std                the body angular velocity signal. [rad/sec]
 
 tBodyGyroJerkMag.mean           The mean and stdev magnitude of
-tBodyGyroJerkMag.std            the body angular velociy "jerk" signal
+tBodyGyroJerkMag.std            the body angular velociy "jerk" signal. [rad/sec/sec]
 
-fBodyAcc.mean.X                 The 3D mean and stdev of the frequency of
-fBodyAcc.mean.Y                 the body acceleration signal
+fBodyAcc.mean.X                 The 3D mean and stdev of the frequency domain of
+fBodyAcc.mean.Y                 the body acceleration signal. ['g']
 fBodyAcc.mean.Z 
 fBodyAcc.std.X 
 fBodyAcc.std.Y 
 fBodyAcc.std.Z 
 
-fBodyAccJerk.mean.X             The 3D mean and stdev of the frequency of
-fBodyAccJerk.mean.Y             the body acceleration "jerk" signal
+fBodyAccJerk.mean.X             The 3D mean and stdev of the frequency domain of
+fBodyAccJerk.mean.Y             the body acceleration "jerk" signal. ['g'/sec]
 fBodyAccJerk.mean.Z 
 fBodyAccJerk.std.X 
 fBodyAccJerk.std.Y 
 fBodyAccJerk.std.Z 
 
-fBodyGyro.mean.X                The 3D mean and stdev of the frequency of
-fBodyGyro.mean.Y                the body angular velocity signal
+fBodyGyro.mean.X                The 3D mean and stdev of the frequency domain of
+fBodyGyro.mean.Y                the body angular velocity signal. [rad/sec]
 fBodyGyro.mean.Z 
 fBodyGyro.std.X 
 fBodyGyro.std.Y 
 fBodyGyro.std.Z 
 
-fBodyAccMag.mean                The mean and stdev magnitude of the freq of
-fBodyAccMag.std                 the body acceleration signal
+fBodyAccMag.mean                The mean and stdev magnitude of the freq domain of
+fBodyAccMag.std                 the body acceleration signal. ['g']
 
-fBodyBodyAccJerkMag.mean        The mean and stdev magnitude of the freq of
-fBodyBodyAccJerkMag.std         the body acceleration "jerk" signal
+fBodyBodyAccJerkMag.mean        The mean and stdev magnitude of the freq domain of
+fBodyBodyAccJerkMag.std         the body acceleration "jerk" signal. ['g'/sec]
 
-fBodyBodyGyroMag.mean           The mean and stdev magnitude of the freq of
-fBodyBodyGyroMag.std            the body angular velocity signal
+fBodyBodyGyroMag.mean           The mean and stdev magnitude of the freq domain of
+fBodyBodyGyroMag.std            the body angular velocity signal. [rad/sec]
 
-fBodyBodyGyroJerkMag.mean       The mean and stdev magnitude of the freq of
-fBodyBodyGyroJerkMag.std        the body angular velociy "jerk" signal
+fBodyBodyGyroJerkMag.mean       The mean and stdev magnitude of the freq domain of
+fBodyBodyGyroJerkMag.std        the body angular velocity "jerk" signal. [rad/sec/sec]
 ```
 
 ## Transformations
