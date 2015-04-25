@@ -134,5 +134,6 @@ fBodyBodyGyroJerkMag.std        the body angular velociy "jerk" signal
 * The ActivityLabel column was added to the dataset by joining the information in the `activity_labels.txt` 
 file with the info in the `y_???.txt` file.
 * Only the mean & stdev of the measurements were kept.  This was done via searching (`grep`) for the expression `"mean[.]|std[.]|mean$|std$|ID"` in the headers.
-* A second dataset was formed by taking the average of the measurements, as grouped by the `SubjectID` and `ActivityLabel`
+* A second dataset was formed by taking the average of the measurements, as grouped by the `SubjectID` and `ActivityLabel`. This data set has `(30 subjects x 6 activities) = 180 observations` rows.
 * The datasets are saved in space separated text format.
+
