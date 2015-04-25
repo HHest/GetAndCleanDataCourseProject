@@ -10,7 +10,7 @@ Each record in the dataset provides:
   - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
   - Triaxial Angular velocity from the gyroscope.
   - "Jerk" values (derivative w.r.t. time) for the above two quantities.
-  - Frequency values for the above two quantities.
+  - Frequency domain values for the above two quantities.
   - Magnitudes of the above quantities.
 * An activity label.
 * An identifier of the subject who carried out the experiment. 
@@ -23,7 +23,7 @@ Note: the original dataset was much larger. Each record in the original dataset 
 * An activity label.
 * An identifier of the subject who carried out the experiment. 
 
-Full description of the original data can be found at the site where the data was obtained:
+Full description of the original data can be found at the site where the data set was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
